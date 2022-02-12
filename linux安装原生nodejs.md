@@ -1,7 +1,7 @@
 1. 从官网下下载最新的nodejs，https://nodejs.org/en/download/
 2. 上次到服务器 scp
 3. 移动并改名文件夹
-```typescript
+```bash
 cd /usr/local/
 mv /var/ftp/pub/node-v10.16.0-linux-64 . //后面的.表示移动到当前目录
 mv node-v10.16.0.0-linux-64/ nodejs
@@ -9,21 +9,21 @@ mv node-v10.16.0.0-linux-64/ nodejs
 4. 让npm和node命令全局生效
 > 方式一：环境变量方式
 > - 加入环境变量，在 /etc/profile 文件末尾增加配置
-```typescript
+```bash
 vi /etc/profile
 export PATH=$PATH:/usr/local/nodejs/bin
 ```
 > - 执行命令使配置文件生效
-```typescript
+```bash
 source /etc/profile
 ```
 > 方式二：软链接方式（推荐）
-```typescript
+```bash
 ln -s /usr/local/nodejs/bin/npm /usr/local/bin/
 ln -s /usr/local/nodejs/bin/node /usr/local/bin/
 ```
 5. 查看nodejs是否安装成功
-```typescript
+```bash
 node -v
 npm -v
 ```
