@@ -1,5 +1,5 @@
 1. 从官网下下载最新的nodejs，https://nodejs.org/en/download/
-2. 上传到服务器 (可以使用scp命令)
+2. 上传到服务器并解压 (scp命令上传 tar -xvf 解压)
 3. 移动并改名文件夹
 ```bash
 cd /usr/local/
