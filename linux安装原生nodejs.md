@@ -13,9 +13,10 @@ mv node-v10.16.0.0-linux-64/ nodejs
 vi /etc/profile
 export PATH=$PATH:/usr/local/nodejs/bin
 ```
-> - 执行命令使配置文件生效
+> - 执行命令使配置文件生效（需要重启）
 ```bash
 source /etc/profile
+shutdown -r now
 ```
 > 方式二：软链接方式（推荐）
 ```bash
