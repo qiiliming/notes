@@ -3,7 +3,7 @@
 3. 移动并改名文件夹
 ```bash
 cd /usr/local/
-mv /var/ftp/pub/node-v10.16.0-linux-64 . //后面的.表示移动到当前目录
+mv /var/ftp/pub/node-v10.16.0-linux-64 . //后面的.表示移动到当前目录 管理员权限需要加sudo
 mv node-v10.16.0.0-linux-64/ nodejs
 ```
 4. 配置环境变量让npm和node命令全局生效
